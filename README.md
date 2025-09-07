@@ -1,5 +1,7 @@
 # Theoretical Physics Evaluation Pipeline
 
+Repository: https://github.com/automatedscientist/evals
+
 This repository contains evaluation environments for testing language models on theoretical physics problems. Each subdirectory represents a specific physics domain with its own evaluation framework.
 
 ## Evaluations
@@ -23,6 +25,11 @@ The harmonic oscillator evaluation tests whether language models can compute the
 
 ## Getting Started
 
+```bash
+git clone https://github.com/automatedscientist/evals.git
+cd evals
+```
+
 Each evaluation subdirectory is self-contained with its own installation and usage instructions. Navigate to the specific evaluation directory and follow the README for setup and execution details.
 
 ## Requirements
@@ -38,3 +45,16 @@ When adding new physics evaluations:
 2. Include comprehensive README with problem description
 3. Provide test scripts and example problems
 4. Document expected model performance benchmarks
+
+## Citation
+
+If you use this evaluation suite in your research, please cite:
+
+```bibtex
+@misc{automatedscientist2025evals,
+  title={Theoretical Physics Evaluation Pipeline},
+  author={Automated Scientist},
+  year={2025},
+  url={https://github.com/automatedscientist/evals}
+}
+```

@@ -19,8 +19,8 @@ The expected energy is: E = Σ |c_i|² × E_n / Σ |c_i|²
 
 ```bash
 # Clone and setup
-git clone <repository>
-cd harmonic_osc
+git clone https://github.com/automatedscientist/evals.git
+cd evals/harmonic_osc
 
 # Install dependencies
 uv venv
