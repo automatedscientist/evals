@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vf-quantum-energy"
+version = "0.1.0"
+description = "Verifiers environment: exact-check expected energy from coefficients-based linear combination."
+requires-python = ">=3.11"
+dependencies = [
+  "verifiers",
+  "sympy>=1.12",
+  "datasets>=2.18.0",
+  "rich>=13.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/willccbb/verifiers"
